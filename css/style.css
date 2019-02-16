@@ -2,6 +2,11 @@ body{
   background-image: url("img/list-bg.png");
 }
 
+article{
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
 ul#icon-bar{
   text-align: center; 
 }
@@ -25,6 +30,7 @@ ul#line-items{
   font-size: 8px; 
   text-align: center; 
 }
+
 ul#line-items > li {
   display: inline; 
 }
@@ -34,8 +40,7 @@ padding-right: 1170px;
 }
 img#choco-pizza, p#recipe{ 
   display: block; 
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 p#recipe{ 
   width: 900px;
@@ -45,10 +50,38 @@ p#recipe{
 ul#ingredients{ 
   column-count: 2; 
   width: 900px;
-  background-image: url("/Users/MaryCimakasky/codefellows/201/MC-JZ-Lab10/img/list-bg.png");
+  background-image: url("img/list-bg.png");
   /*background-color: palegoldenrod;*/
-  margin-left: auto; 
-  margin-right: auto;
-
+  
 }
 
+img#VanessaPic{
+  float: left;
+  margin: 10px;
+}
+
+article#AboutMe > ul > li{
+  display: inline; 
+  font-size: 18px;
+}
+
+button#ClickShare{
+  float: right;
+  background-color: #BC7060;
+  border: none;
+  color: #fff;  
+  padding: 15px 32px;
+  font-family: 'Teko', sans-serif;
+  font-size: 14px;
+}
+
+footer{
+  display: inline;
+}
+
+hr.FooterHr{
+  display: inline;
+  weight: thin;
+  style: solid;
+
+}
